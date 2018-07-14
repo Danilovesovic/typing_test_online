@@ -1,0 +1,11 @@
+.thumb {
+  height: 200px;
+}
+.card-body {padding: 7px;}
+.card-footer {padding: 7px;}
+textarea {
+  resize: none;
+}
+#info {
+  display: none;
+}

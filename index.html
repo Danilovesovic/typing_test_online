@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#" class="navbar-brand">Typing Test</a>
+  </nav>
+  <div class="container-fluid mt-2">
+    <div class="row">
+      <div class="col-3">
+        <div class="card">
+          <div class="card-header text-center">
+            <img src="images/face11.jpg" class="card-img-top thumb">
+          </div>
+          <div class="card-body">
+            <textarea id="playerArea" class="form-control" rows="8" cols="80"></textarea>
+          </div>
+          <div class="card-footer">
+            <button id="playerBtn" class="btn btn-warning form-control">Position : 0</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-header text-center">
+            <img src="images/face22.jpg" class="card-img-top img-fluid thumb">
+          </div>
+          <div class="card-body">
+            <textarea id="comp1Area" class="form-control" rows="8" cols="80"></textarea>
+          </div>
+          <div class="card-footer">
+            <button id="comp1Btn" class="btn btn-warning form-control">Position : 0</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-header text-center">
+            <img src="images/face33.jpg" class="card-img-top thumb">
+          </div>
+          <div class="card-body">
+            <textarea id="comp2Area" class="form-control" rows="8" cols="80"></textarea>
+          </div>
+          <div class="card-footer">
+            <button id="comp2Btn" class="btn btn-warning form-control">Position : 0</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-header text-center">
+            <img src="images/face44.jpg" class="card-img-top thumb">
+          </div>
+          <div class="card-body">
+            <textarea id="comp3Area" class="form-control" rows="8" cols="80"></textarea>
+          </div>
+          <div class="card-footer">
+            <button id="comp3Btn" class="btn btn-warning form-control">Position : 0</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 offset-3 mt-5">
+        <button id="startBtn" class="btn btn-primary form-control">Start</button>
+      </div>
+      <div id="info" class="col-6 offset-3 mt-5 text-center bg-light">
+        <h3></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
